@@ -1,8 +1,10 @@
+
 # FLOAT Concept Explorer
 
 A visual knowledge exploration tool for the FLOAT (Fractal Linked Ontological Analysis Tool) system.
 
-![FLOAT Concept Explorer Screenshot](/public/images/float-concept-explorer-screenshot.png)
+![image](https://github.com/user-attachments/assets/c3f38320-bb7b-4f9b-acb1-0aa3c6dcb0cd)
+
 
 ## Overview
 
