@@ -7,6 +7,9 @@ import { SigilSelector } from "@/components/sigil-selector"
 import { ConceptInput } from "@/components/concept-input"
 import type { ExpansionPattern } from "@/types/expansion-patterns"
 import { FloatHeader } from "@/components/float-header"
+import { AboutFloat } from "@/components/about-float"
+import { Footer } from "@/components/footer"
+import { HelpModal } from "@/components/help-modal"
 
 export default function Home() {
   const [selectedPattern, setSelectedPattern] = useState<ExpansionPattern>("concept-led")
@@ -29,10 +32,14 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-black text-purple-300">
       <FloatHeader />
 
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 flex-grow">
         <div className="mb-8 p-6 border border-purple-500 bg-black rounded-md">
-          <h1 className="text-3xl font-mono font-bold mb-4 text-purple-400">FLOAT Concept Explorer</h1>
-          <p className="mb-4 font-mono">
+          <div className="flex justify-between items-center mb-4">
+            <h1 className="text-3xl font-mono font-bold text-purple-400">FLOAT Concept Explorer</h1>
+            <HelpModal />
+          </div>
+
+          <p className="mb-6 font-mono">
             Select an expansion pattern and provide a seed to begin exploring your knowledge ecosystem.
           </p>
 
@@ -67,14 +74,18 @@ export default function Home() {
           </div>
         </div>
 
-        {isExploring && (
+        {isExploring ? (
           <ConceptExplorer
             pattern={selectedPattern}
             seed={seedConcept}
             sigil={selectedPattern === "sigil-seeding" ? selectedSigil : undefined}
           />
+        ) : (
+          <AboutFloat />
         )}
       </div>
+
+      <Footer />
     </main>
   )
 }
