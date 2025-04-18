@@ -1,9 +1,12 @@
+- https://v0-concept-explorer-flows.vercel.app/
+- https://v0.dev/chat/concept-explorer-flows-l7GoMGt4ZZb
 
 # FLOAT Concept Explorer
 
 A visual knowledge exploration tool for the FLOAT (Fractal Linked Ontological Analysis Tool) system.
 
-![image](https://github.com/user-attachments/assets/c3f38320-bb7b-4f9b-acb1-0aa3c6dcb0cd)
+<img width="1491" alt="Screenshot 2025-04-18 at 10 10 52 AM" src="https://github.com/user-attachments/assets/cf0c0024-acc4-4da0-90c0-552f56aefc41" />
+
 
 
 ## Overview
