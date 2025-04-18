@@ -5,8 +5,8 @@
 
 A visual knowledge exploration tool for the FLOAT (Fractal Linked Ontological Analysis Tool) system.
 
-<img width="1491" alt="Screenshot 2025-04-18 at 10 10 52 AM" src="https://github.com/user-attachments/assets/cf0c0024-acc4-4da0-90c0-552f56aefc41" />
 
+<img width="1252" alt="Screenshot 2025-04-18 at 10 14 46 AM" src="https://github.com/user-attachments/assets/f6e349ef-0349-4a27-865e-aa0315f0782f" />
 
 
 ## Overview
